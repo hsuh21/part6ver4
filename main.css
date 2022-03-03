@@ -1,0 +1,32 @@
+body{
+    margin-top: 0;
+    word-break: break-all;
+}
+
+p,b{
+    font-family: baskerville-urw, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .75 em;
+    margin: 0;
+    display: inline;
+    filter: blur(4px);
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+b:hover {
+    filter: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
